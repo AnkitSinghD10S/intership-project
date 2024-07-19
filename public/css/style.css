@@ -5,8 +5,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-#container2,
-#container1 {
+.container{
     margin: auto;
     margin-top: 20%;
     display: flex;
@@ -87,3 +86,31 @@ div {
     display: inline;
     margin-bottom: 5px;
 }
+
+.alert {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+  }
+  
+  .alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+  }
+  
+  #success, #error {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    display: none;
+    animation: fadeIn 0.5s ease-in-out;
+  }
